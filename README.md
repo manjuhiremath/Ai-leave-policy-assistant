@@ -36,3 +36,40 @@ A secure internal web app that answers natural-language questions about company 
 
 ## 📂 Repository Layout
 
+```
+hr-policy-assistant/
+├── backend1/          # FastAPI service
+├── frontend/          # Next.js App Router frontend
+└── README.md          # Project documentation
+```
+
+## 🔧 Prerequisites
+
+- Node.js (Next.js 14) + npm  
+- Python 3.10+ + pip/venv  
+- API keys (if using hosted embeddings or LLMs:  `GEMINI_API_KEY`)  
+
+
+## ⚙️ Environment Variables
+
+### Backend `.env`
+```env
+# Gemini Configuration
+GEMINI_API_KEY=(please provide your own gemini api key)
+GEMINI_EMBED_MODEL=models/embedding-001
+GEMINI_CHAT_MODEL=gemini-2.5-flash
+VECTOR_BACKEND=faiss
+
+# Pinecone (optional)
+PINECONE_API_KEY=(please provide your own api key)
+PINECONE_INDEX=hr-policies
+EMBEDDINGS_PROVIDER=gemini   # or gemini
+```
+# Frontend `.env`
+```env
+BACKEND_URL=http://localhost:8000
+```
+# run Frontend
+```cd frontend
+npm install
+npm run dev```
