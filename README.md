@@ -7,12 +7,11 @@ A secure internal web app that answers natural-language questions about company 
 ##  Features
 
 -  Search-style question box with **Ask**, **Clear**, **Copy**  
--  Mobile-responsive layout, dark-first theme via CSS variables and system preference  
+-  Mobile-responsive layout, dark-first theme via CSS variables, user preference for dark/light mode integrated system preference
 -  FastAPI backend with **RAG over FAISS** vector index  
 -  Configurable embeddings: **Gemini** with **gemini-2.5-flash**  
 -  Clean JSON responses with citations and confidence  
 -  Server-side proxy in **Next.js App Router** to avoid CORS and keep secrets safe  
--  Optional **WhatsApp Cloud API** integration with webhook verification  
 
 ---
 
