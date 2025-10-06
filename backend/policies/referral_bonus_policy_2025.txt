@@ -1,0 +1,7 @@
+# policies/referral_bonus_policy_2025.txt
+4. Referral Bonus Policy
+Who Can Refer: All full-time employees, except Leadership (L6+), HR/TA team, and those referring rehires within 12 months.
+Eligible Roles: Vacancies listed on ABC’s Careers page.
+Process: Referral submitted in HRMS/ATS before interviews. If multiple, the earliest valid referral is considered.
+Bonus Amounts: Junior ₹15,000; Mid-level ₹30,000; Senior ₹50,000; Critical specialist ₹75,000.
+Payment Timeline: Bonus credited via payroll once referred hire completes 90 days & confirmation. Subject to taxes.

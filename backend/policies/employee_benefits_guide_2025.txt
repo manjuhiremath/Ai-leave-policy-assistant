@@ -1,0 +1,8 @@
+# policies/employee_benefits_guide_2025.txt
+5. Employee Benefits & Compliance
+EPF: Employer contributes 12% of eligible wages; EPS/EDLI included.
+ESI: Wages ≤ ₹21,000/month. Employer 3.25%, Employee 0.75%.
+Gratuity: Payable after 5 years; capped at ₹20 lakh.
+Bonus Act: 8.33% – 20% for eligible employees; wage ceiling ₹21,000/month.
+Health Insurance: ₹5 lakh family floater with OPD and wellness; optional top-up at employee cost.
+Learning & Development: Budget for training & certifications with manager approval.

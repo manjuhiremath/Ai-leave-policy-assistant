@@ -1,0 +1,6 @@
+# policies/posh_policy_v1.txt
+6. Safe Workplace (PoSH)
+Zero Tolerance: Any form of sexual harassment is strictly prohibited at workplace (physical or virtual).
+Internal Committee (IC): As per PoSH Act; woman Presiding Officer, ≥50% women members, one external member; tenure 3 years.
+Complaint Process: Written complaint within 3 months (extendable); confidential inquiry; no retaliation.
+Awareness & Training: Mandatory annual PoSH training; awareness posters; access to Govt. She-Box portal.
