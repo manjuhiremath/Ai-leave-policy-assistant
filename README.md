@@ -70,6 +70,8 @@ EMBEDDINGS_PROVIDER=gemini   # or gemini
 BACKEND_URL=http://localhost:8000
 ```
 # run Frontend
-```cd frontend
+```env
+cd frontend
 npm install
-npm run dev```
+npm run dev
+```
