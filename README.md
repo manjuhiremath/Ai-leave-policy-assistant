@@ -76,12 +76,11 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 ---
 Screenshots
-1. ![Screenshot 1](/assets/Screenshot1.png)
-2. ![Screenshot 2](/assets/Screenshot2.png)
-3. ![Screenshot 3](/assets/Screenshot3.png)
-4. ![Screenshot 4](/assets/Screenshot4.png)
-5. ![Screenshot 5](/assets/Screenshot5.png)
-6. ![Screenshot 6](/assets/Screenshot6.png)
-7. ![Screenshot 7](/assets/Screenshot7.png)
+1. ![Screenshot 1](/assets/ss1.png)
+2. ![Screenshot 2](/assets/ss2.png)
+3. ![Screenshot 3](/assets/ss3.png)
+4. ![Screenshot 4](/assets/ss4.png)
+5. ![Screenshot 5](/assets/ss5.png)
+6. ![Screenshot 6](/assets/ss6.png)
 
 --- 
