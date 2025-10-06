@@ -77,7 +77,6 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 
 
----
 Screenshots
 <table>
   <tr>
@@ -93,6 +92,5 @@ Screenshots
     <td><img src="/assets/ss6.png" alt="FastAPI Docs" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>FastAPI Interactive Docs</sub></td>
   </tr>
 </table>
---- 
 
 
