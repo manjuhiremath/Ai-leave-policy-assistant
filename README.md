@@ -15,7 +15,7 @@ A secure internal web app that answers natural-language questions about company 
 
 ---
 
-## 🏛 Architecture
+## Architecture
 
 - **Frontend**:  
   - Next.js App Router (JS)  
@@ -31,13 +31,13 @@ A secure internal web app that answers natural-language questions about company 
   - FAISS (local, default) for cost-free development and fast retrieval  
   - Optional: Chroma / Pinecone via environment variable  
 
-## 🔧 Prerequisites
+##  Prerequisites
 
 - Node.js (Next.js 14) + npm  
 - Python 3.10+ + pip/venv  
 - API keys (if using hosted embeddings or LLMs:  `GEMINI_API_KEY`)  
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 ### Backend `.env`
 ```env
