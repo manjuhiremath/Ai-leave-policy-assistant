@@ -73,14 +73,14 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
 
-### Docker (Containerized Deployment)
+### Docker (Containerized Deployment) (the application is not in Production due to time constraints)
 
 **Note**: Docker configuration not included in this version due to time constraints. For production deployment, create:
 - `backend/Dockerfile` with Python 3.10+ base image, copy requirements, and run Uvicorn
 - `frontend/Dockerfile` with Node 18+ base image, build Next.js, and serve
 - `docker-compose.yml` to orchestrate both services with environment variable injection
 
-### Platform Deployment (backend (Render) and frontend (Vercel))
+### Platform Deployment (backend (Render) and frontend (Vercel)) (the application is not in Production due to time constraints)
 
 #### Render
 1. Create two web services: one for FastAPI (Python), one for Next.js (Node)
