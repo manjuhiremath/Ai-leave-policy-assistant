@@ -31,14 +31,11 @@ A secure internal web app that answers natural-language questions about company 
   - FAISS (local, default) for cost-free development and fast retrieval  
   - Optional: Chroma / Pinecone via environment variable  
 
-
-
 ## 🔧 Prerequisites
 
 - Node.js (Next.js 14) + npm  
 - Python 3.10+ + pip/venv  
 - API keys (if using hosted embeddings or LLMs:  `GEMINI_API_KEY`)  
-
 
 ## ⚙️ Environment Variables
 
@@ -74,13 +71,28 @@ python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 (or)
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
+
+
+
+
+
+
 ---
 Screenshots
-1. ![Screenshot 1](/assets/ss1.png)
-2. ![Screenshot 2](/assets/ss2.png)
-3. ![Screenshot 3](/assets/ss3.png)
-4. ![Screenshot 4](/assets/ss4.png)
-5. ![Screenshot 5](/assets/ss5.png)
-6. ![Screenshot 6](/assets/ss6.png)
-
+<table>
+  <tr>
+    <td><img src="/assets/ss1.png" alt="Home - Light Theme" width="400"/><br/><sub>Home - Light Theme</sub></td>
+    <td><img src="/assets/ss2.png" alt="Home - Dark Theme" width="400"/><br/><sub>Home - Dark Theme</sub></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/ss3.png" alt="Answer with Citations" width="400"/><br/><sub>Answer with Citations</sub></td>
+    <td><img src="/assets/ss4.png" alt="Mobile Responsive" width="400"/><br/><sub>Mobile Responsive</sub></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/ss5.png" alt="Policy References" width="400"/><br/><sub>Policy References Expanded</sub></td>
+    <td><img src="/assets/ss6.png" alt="FastAPI Docs" width="400"/><br/><sub>FastAPI Interactive Docs</sub></td>
+  </tr>
+</table>
 --- 
+
+
