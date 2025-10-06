@@ -32,16 +32,7 @@ A secure internal web app that answers natural-language questions about company 
   - FAISS (local, default) for cost-free development and fast retrieval  
   - Optional: Chroma / Pinecone via environment variable  
 
----
 
-## 📂 Repository Layout
-
-```
-hr-policy-assistant/
-├── backend1/          # FastAPI service
-├── frontend/          # Next.js App Router frontend
-└── README.md          # Project documentation
-```
 
 ## 🔧 Prerequisites
 
@@ -75,3 +66,23 @@ cd frontend
 npm install
 npm run dev
 ```
+# run Backend
+```env
+cd backend
+pip install -r requirements.txt
+python -m scripts.ingest_policies
+python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+(or)
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
+---
+Screenshots
+1. ![Screenshot 1](assets/screenshots1.png)
+2. ![Screenshot 2](assets/screenshots2.png)
+3. ![Screenshot 3](assets/screenshots3.png)
+4. ![Screenshot 4](assets/screenshots4.png)
+5. ![Screenshot 5](assets/screenshots5.png)
+6. ![Screenshot 6](assets/screenshots6.png)
+7. ![Screenshot 7](assets/screenshots7.png)
+
+--- 
