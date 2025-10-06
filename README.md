@@ -1,18 +1,18 @@
 # HR Policy Assistant
 
-A secure internal web app that answers natural-language questions about company policies with explicit citations using a RAG pipeline, with an optional WhatsApp entry point for employees.
+A secure internal web app that answers natural-language questions about company policies with explicit citations using a RAG pipeline.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 Search-style question box with **Ask**, **Clear**, **Copy**  
-- 📱 Mobile-responsive layout, dark-first theme via CSS variables and system preference  
-- ⚡ FastAPI backend with **RAG over FAISS** vector index  
-- 🔑 Configurable embeddings: **OpenAI**, **Gemini**, or **local HuggingFace**  
-- 📝 Clean JSON responses with citations and confidence  
-- 🔒 Server-side proxy in **Next.js App Router** to avoid CORS and keep secrets safe  
-- 💬 Optional **WhatsApp Cloud API** integration with webhook verification  
+-  Search-style question box with **Ask**, **Clear**, **Copy**  
+-  Mobile-responsive layout, dark-first theme via CSS variables and system preference  
+-  FastAPI backend with **RAG over FAISS** vector index  
+-  Configurable embeddings: **OpenAI**, **Gemini**, or **local HuggingFace**  
+-  Clean JSON responses with citations and confidence  
+-  Server-side proxy in **Next.js App Router** to avoid CORS and keep secrets safe  
+-  Optional **WhatsApp Cloud API** integration with webhook verification  
 
 ---
 
