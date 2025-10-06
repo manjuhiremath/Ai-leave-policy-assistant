@@ -56,13 +56,13 @@ EMBEDDINGS_PROVIDER=gemini   # or gemini
 ```env
 BACKEND_URL=http://localhost:8000
 ```
-# run Frontend
+# Run Frontend
 ```env
 cd frontend
 npm install
 npm run dev
 ```
-# run Backend
+# Run Backend
 ```env
 cd backend
 pip install -r requirements.txt
