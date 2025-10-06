@@ -112,6 +112,10 @@ Screenshots
     <td><img src="/assets/ss5.png" alt="Policy References" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>Policy References Expanded</sub></td>
     <td><img src="/assets/ss6.png" alt="FastAPI Docs" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>FastAPI Interactive Docs</sub></td>
   </tr>
+    <tr>
+    <td><img src="/assets/ss7.png" alt="Policy References" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>Policy References Expanded</sub></td>
+  
+  </tr>
 </table>
 
 
