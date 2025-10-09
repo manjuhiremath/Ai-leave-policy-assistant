@@ -101,19 +101,33 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 Screenshots
 <table>
   <tr>
-    <td><img src="/assets/ss1.png" alt="Home - Light Theme" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>Home - Light Theme</sub></td>
-    <td><img src="/assets/ss2.png" alt="Home - Dark Theme" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>Home - Dark Theme</sub></td>
+    <td><img src="/assets/ss1.png" alt="Home - Light Theme" style="height:400px;width:400px;object-fit:contain;" /><br/>
+    <!-- <sub>Home - Light Theme</sub> -->
+    </td>
+    <td><img src="/assets/ss2.png" alt="Home - Dark Theme" style="height:400px;width:400px;object-fit:contain;" /><br/>
+    <!-- <sub>Home - Dark Theme</sub> -->
+    </td>
   </tr>
   <tr>
-    <td><img src="/assets/ss3.png" alt="Answer with Citations" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>Answer with Citations</sub></td>
-    <td><img src="/assets/ss4.png" alt="Mobile Responsive" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>Mobile Responsive</sub></td>
+    <td><img src="/assets/ss3.png" alt="Answer with Citations" style="height:400px;width:400px;object-fit:contain;" /><br/>
+    <!-- <sub>Answer with Citations</sub> -->
+    </td>
+    <td><img src="/assets/ss4.png" alt="Mobile Responsive" style="height:400px;width:400px;object-fit:contain;" /><br/>
+    <!-- <sub>Mobile Responsive</sub> -->
+    </td>
   </tr>
   <tr>
-    <td><img src="/assets/ss5.png" alt="Policy References" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>Policy References Expanded</sub></td>
-    <td><img src="/assets/ss6.png" alt="FastAPI Docs" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>FastAPI Interactive Docs</sub></td>
+    <td><img src="/assets/ss5.png" alt="Policy References" style="height:400px;width:400px;object-fit:contain;" /><br/>
+    <!-- <sub>Policy References Expanded</sub> -->
+    </td>
+    <td><img src="/assets/ss6.png" alt="FastAPI Docs" style="height:400px;width:400px;object-fit:contain;" /><br/>
+    <!-- <sub>FastAPI Interactive Docs</sub> -->
+    </td>
   </tr>
     <tr>
-    <td><img src="/assets/ss7.png" alt="Policy References" style="height:400px;width:400px;object-fit:contain;" /><br/><sub>Policy References Expanded</sub></td>
+    <td><img src="/assets/ss7.png" alt="Policy References" style="height:400px;width:400px;object-fit:contain;" /><br/>
+    <!-- <sub>Policy References Expanded</sub> -->
+    </td>
   
   </tr>
 </table>
