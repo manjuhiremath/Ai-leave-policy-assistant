@@ -2,9 +2,9 @@ import { NextResponse } from "next/server";
 
 export async function POST(request) {
   const body = await request.json();
-  const backend = process.env.BACKEND_URL; // e.g., http://localhost:8000
+  const backend = process.env.NEXT_PUBLIC_API_URL; // e.g., http://localhost:8000
   if (!backend) {
-    return NextResponse.json({ error: "BACKEND_URL not set" }, { status: 500 });
+    return NextResponse.json({ error: "NEXT_PUBLIC_API_URL not set" }, { status: 500 });
   }
   const r = await fetch(`${backend}/ask`, {
     method: "POST",
