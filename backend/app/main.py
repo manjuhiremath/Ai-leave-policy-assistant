@@ -71,13 +71,33 @@ app = FastAPI(
     version="2.0.0"
 )
 
-# CORS
+# CORS Configuration - Updated with specific origins
+origins = [
+    # Local development
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "http://127.0.0.1:3000",
+    
+    # Production Vercel URL
+    "https://ai-leave-policy-assistant-m0gkg2qsl-manjuhiremaths-projects.vercel.app",
+    
+    # Custom domain (if you have one)
+    # "https://your-custom-domain.com",
+]
+
+# Get additional origins from environment variable (optional)
+additional_origins = os.getenv("ALLOWED_ORIGINS", "")
+if additional_origins:
+    origins.extend(additional_origins.split(","))
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
+    expose_headers=["*"],
+    max_age=3600,  # Cache preflight requests for 1 hour
 )
 
 @app.get("/health", response_model=HealthResponse)
@@ -165,6 +185,7 @@ async def startup_event():
     print("🚀 HR Policy Assistant (Gemini) Starting...")
     print(f"💬 Chat Model: {os.getenv('GEMINI_CHAT_MODEL', 'gemini-1.0-pro')}")
     print(f"🔤 Embedding Model: {os.getenv('GEMINI_EMBED_MODEL', 'models/embedding-001')}")
+    print(f"🌐 Allowed Origins: {', '.join(origins)}")
     
     current_dir = os.path.dirname(os.path.abspath(__file__))
     storage_dir = os.path.abspath(os.path.join(current_dir, "..", "storage"))
